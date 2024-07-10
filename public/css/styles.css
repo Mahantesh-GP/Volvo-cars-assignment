@@ -1,4 +1,31 @@
-body {
-  background: steelblue;
-  color: white;
+@import "../../node_modules/@volvo-cars/css/dist/styles.css";
+.img-logo {
+  width: 20%;
+  height: 100%;
+}
+
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-scroll{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+/* Adjust styles for screens smaller than 768px (typical tablet and mobile screens) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .element-to-hide {
+    display: none;
+  }
+  /* Add more specific styles for smaller screens */
 }

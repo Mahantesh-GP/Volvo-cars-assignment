@@ -1,5 +1,12 @@
 import React from "react";
+import LogoHeader from "./LogoHeader";
+import { CarsList } from "./CarsList";
+import { useRouter } from "next/router";
 
 export const HelloWorld: React.FC = () => {
-  return <h1>Hello World!</h1>;
+  return (
+    <div className="grid gap-24 justify-evenly">
+      <CarsList />
+    </div>
+  );
 };
