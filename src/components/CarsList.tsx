@@ -92,8 +92,8 @@ export const CarsList: React.FC = () => {
             <CarsCard carItems={car} key={car.id} />
           ))}
         </div>
-        <div aria-hidden className="reel-indicators" />
-        <div className="flex gap-x-8 mr-16 mt-16 justify-start">
+        <div className="reel-indicators" />
+        <div className="flex gap-x-8 mr-16 mt-16 justify-start element-to-hide">
           <IconButton
             aria-label="forward"
             variant="outlined"
