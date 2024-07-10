@@ -1,4 +1,17 @@
-body {
-  background: steelblue;
-  color: white;
+@import "../../node_modules/@volvo-cars/css/dist/styles.css";
+.img-logo {
+  width: 20%;
+  height: 100%;
+}
+
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-scroll{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
